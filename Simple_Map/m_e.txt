@@ -1,0 +1,35 @@
+// Create the map object with a center and zoom level.
+let map = L.map("mapid", {
+  center: [
+    40.7, -94.5
+  ],
+  zoom: 4
+});
+
+To change the map's style, change the map id using the list of Mapbox ids below:
+
+mapbox.streets
+mapbox.light
+mapbox.dark
+mapbox.satellite
+mapbox.streets-satellite
+mapbox.wheatpaste
+mapbox.streets-basic
+mapbox.comic
+mapbox.outdoors
+mapbox.run-bike-hike
+mapbox.pirates
+mapbox.emerald
+mapbox.high-contrast
+
+Use Mapbox styles api
+search tiles api
+Copy this part of the URL: https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/.
+
+In your tileLayer() code, replace this part of the URL, https://api.tiles.mapbox.com/v4/{id}/, with the Mapbox Styles API URL you copied.
+
+Remove the .png from the URL.
+
+Remove the id attribute and the map style reference.
+
+To change the map style, use the style given in the URLs (e.g., "streets-v11," "dark-v10," etc.
