@@ -43,11 +43,9 @@ L.control.layers(baseMaps).addTo(map);
 // Accessing the GeoJSON URL we imported
 //let airportData = "https://raw.githubusercontent.com/mayaeliza/Mapping_Earthquakes/main/majorAirports.json";
 //let torontoData = "https://raw.githubusercontent.com/mayaeliza/Mapping_Earthquakes/main/torontoRoutes.json";
-//let torontoHoods = "https://raw.githubusercontent.com/mayaeliza/Mapping_Earthquakes/main/torontoNeighborhoods.json";
 
-// Grabbing our GeoJSON data from the web
-d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data) {
-  console.log(data);
+// Accessing the Toronto neighborhoods GeoJSON URL.
+//let torontoHoods = "https://raw.githubusercontent.com/mayaeliza/Mapping_Earthquakes/main/torontoNeighborhoods.json";
 
 // Create a style for the lines.
 //let myStyle = {
@@ -55,9 +53,9 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   //weight: 2
 //}
 
-// Grabbing our GeoJSON data.
-//d3.json(torontoHoods).then(function(data) {
-  //console.log(data);
+// Grabbing our GeoJSON data from the web
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data) {
+  console.log(data);
 
 // Creating a GeoJSON layer with the retrieved data.
 L.geoJson(data).addTo(map);
