@@ -1,1 +1,19 @@
 # Mapping_Earthquakes
+## Overview
+
+## Resources
+- JavaScript, HTML, VS Code, Leaflet
+- Tectonic Plate JSON
+- Earthquake Data JSON
+- Major Earthquake Data JSON
+
+## Summary
+- Tectonic Plates and Earthquakes Interactive Map
+- <img width="1276" alt="tectonicplate_eartquakes" src="https://user-images.githubusercontent.com/72039212/115065493-d1bb9c00-9eb3-11eb-8fbd-257e79f22e0f.png">
+
+- Tectonic Plates and Earthquakes Interactive Map with Major Earthqakes Layer Addition
+- <img width="1268" alt="majorearthquakes" src="https://user-images.githubusercontent.com/72039212/115065713-1b0beb80-9eb4-11eb-9054-dccbfaadb06b.png">
+
+- Tectonic Plates and Earthquakes Interactive Map with Major Earthqakes Dark Mode
+- <img width="1271" alt="darkmodeeq" src="https://user-images.githubusercontent.com/72039212/115065881-5c040000-9eb4-11eb-850f-893374df3bc5.png">
+
