@@ -1,4 +1,4 @@
-# Mapping_Earthquakes
+# Mapping Earthquakes Interactive Maps
 ## Overview
 Using JavaScript, Leaflet.js, and geoJSON data, create an interactive map to see earthquake data in relation to the tectonic plates’ location on the earth. Also, add a layer on the map to see all the earthquakes with a magnitude greater than 4.5.
 
